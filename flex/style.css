@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row; default  
+     flex-direction: column; 
+     flex-direction: column-reverse; 
+     flex-direction: row-reverse; 
+    flex-wrap: nowrap; default  
+    flex-wrap: wrap;  
+     flex-flow:  direction wrap;  shortcut for derction et wrap*/
+
+    /* justify-content postion horizontal  */
+    justify-content: flex-start; default  
+     justify-content: flex-end;  
+     justify-content: center;  
+
+    /* align-content  postion vertical  */
+    align-content: flex-start ;
+    align-content: flex-end ;
+    align-content: end ;
+}
